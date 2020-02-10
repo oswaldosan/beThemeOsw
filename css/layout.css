@@ -210,7 +210,7 @@ body:not(.template-slider) #Header_wrapper{background-repeat:no-repeat;backgroun
 body:not(.template-slider) #Header_wrapper.bg-fixed{background-attachment:fixed}
 #Header_wrapper{position:relative}
 #Header{position:relative}
-body:not(.template-slider) #Header{min-height:250px}
+body:not(.template-slider) #Header{min-height:0px}
 
 .mhb #Header_wrapper{background-image:none!important}
 
@@ -1792,3 +1792,170 @@ body.error404:not(.events-archive) #Content{padding:0!important}
 
 /* Pagination */
 .dark .slider_pagination a{background:rgba(255,255,255,0.3)}
+
+#Footer .widget_mfn_menu ul li a {
+    background: none !important;
+    color: #ccc;
+}
+
+#Top_bar .menu > li > a span:not(.description) {
+      text-transform: uppercase;
+    font-size: 17px;
+}
+
+#Top_bar .search_wrapper {
+    background-color: rgba(255,255,255,0.4) !important;
+
+}
+
+#Top_bar .search_wrapper input[type="text"] {
+    color: #00345e !important;
+}
+
+#Top_bar .top_bar_right a:not(.action_button) {
+    color: #ffffff !important;
+}
+
+.column, .columns {
+    float: left;
+    margin: 0 1% 5px !important;
+}
+
+.themap {
+    margin-left: -15px;
+}
+
+.coursesSquare {
+   border-radius: 20px;
+}
+.section_wrapper.clearfix {
+    display: none;
+}
+.accordion .question .answer {
+    background-color: rgba(9,40,67,0.2);
+    color: #000;
+}
+
+.accordion .question.active .title {
+    color: #ffffff;
+    background-color: rgba(9,40,67,0.7);
+}
+
+.accordion .question .title {
+	color: #ffffff;
+    background-color: rgba(9,40,67,0.7);
+
+}
+.botoness {
+  display: inline-block;
+  width: 200px; 
+ text-align: center;
+
+}
+
+.header-transparent.ab-hide #Top_bar {
+    background-color: rgba(29,55,80, 0.9) !important;
+    border-bottom: 2px solid #33698b;
+  /* Add the blur effect */
+
+}
+
+#Top_bar .menu > li > a span:not(.description) {
+      text-transform: uppercase;
+    font-size: 17px;
+}
+
+.header-transparent #Top_bar.is-sticky .menu > li > a span:not(.description) {
+    color: #fff;
+}
+
+@media only screen and (max-width: 750px) {
+
+.header-transparent.ab-hide #Top_bar {
+    background-color: rgba(29,55,80, 0.9) !important;
+}
+
+}
+
+.firstmenu a{
+     font-size: 16px;
+     margin: 8px;
+     color: #fff;
+     display: block;
+}
+
+.firstmenu a:hover{
+     color: #6df0dc;
+     text-decoration: none;
+}
+
+.column2menu {
+   border-right: 2px solid #25637f !important;
+   border-left: 2px solid #25637f !important;
+
+}
+
+.counter {
+  width: 20px;
+  height: 20px;
+  background: black;
+  color: #fff;
+  position: fixed;
+  top: 120px;
+  right: 0;
+}
+
+
+
+#Top_bar #menu {
+    background-color: rgba(0,0,0,0.0) !important;
+}
+
+.is-sticky .menu_wrapper {
+    margin-top: -21px;
+}
+
+.submenusitosKnow {
+	display: block;
+}
+
+.whobox a{
+   text-decoration: none;
+}
+
+.botonazo {
+	width: 140px;
+	text-align: center;
+	color: #11192c;
+	padding: 5px;
+	border: 2px solid #11192c;
+	text-transform: uppercase;
+}
+.botonazo a{
+	color: #11192c;
+	text-decoration: none;
+
+}
+.botonazo:hover{
+	color: #11192c;
+	border: 2px solid #7bfdd1;
+	background-color: #7bfdd1;
+}
+
+/*
+.widget_text h4{
+    font-size: 11px;
+}
+
+.textwidget p{
+    font-size: 12px;
+    color: #a9a9a9;
+}
+
+.textwidget a{
+    font-size: 12px;
+    color: #a9a9a9;
+}*/
+
+
+
